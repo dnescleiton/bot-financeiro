@@ -1,0 +1,7 @@
+services:
+  - type: cron
+    name: bot-financeiro-diario
+    schedule: "0 8 * * *"
+    runtime: python
+    buildCommand: ""
+    startCommand: "python main.py"
